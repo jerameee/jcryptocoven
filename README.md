@@ -13,9 +13,9 @@ To deploy this API, follow these steps:
 1. Clone this repo, change into the directory, and install the dependencies:
 
 ```sh
-git clone git@github.com:dabit3/cryptocoven-api.git
+git clone git@github.com:jerameee/jcryptocoven.git
 
-cd cryptocoven-api
+cd jcryptocoven
 
 npm install
 ```
@@ -34,7 +34,7 @@ npm install -g @graphprotocol/graph-cli
 graph auth https://api.thegraph.com/deploy/ <ACCESS_TOKEN>
 ```
 
-5. Replace `username/apiname` in `package.json` with your username and apiname, for example: `dabit3/cryptocovenapi`
+5. Replace `username/apiname` in `package.json` with your username and apiname, for example: `jerameee/jcryptocoven`
 
 6. Deploy the subgraph
 
@@ -44,7 +44,7 @@ yarn deploy
 
 ### How to use the API
 
-Try it out [here](https://thegraph.com/hosted-service/subgraph/dabit3/cryptocovenapi)
+Try it out [here](https://thegraph.com/hosted-service/subgraph/jerameee/jcryptocoven)
 
 Example query:
 
